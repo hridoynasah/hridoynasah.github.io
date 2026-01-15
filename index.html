@@ -3,80 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website of Hridoy Hasan - Student at Daffodil International University">
+    <meta name="description" content="Hridoy Hasan | Researcher in Deep Learning, Computer Vision, and Health Informatics">
     <title>Hridoy Hasan</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/logos/favicon_h.png">
 </head>
-
 <body>
-<div class="container">
-    <div class="page-layout">
-
-        <input type="checkbox" id="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fas fa-bars"></i> Menu</label>
-
-        <nav id="side-nav" class="side-nav">
-            <ul id="nav-side">
-                <li><a class="active" href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
-                <!-- <li><a href="about.html"><i class="far fa-address-card" aria-hidden="true"></i> About</a></li> -->
-                <!-- <li><a href="research.html"><i class="fas fa-flask" aria-hidden="true"></i> Research</a></li> -->
-                <li><a href="publications.html"><i class="fas fa-file-lines" aria-hidden="true"></i> Publications</a></li>
-                <li><a href="projects.html"><i class="fas fa-laptop-code" aria-hidden="true"></i> Projects</a></li>
-            </ul>
-        </nav>
-
-        <main id="content">
-            <section class="profile-section">
-                <img src="assets/images/profile.jpeg" alt="Hridoy Hasan" class="profile-image" loading="lazy">
-
-                <div class="profile-info">
-                    <h2 class="profile-name">Hridoy Hasan</h2>
-                    <!-- <p class="profile-title">Student, Department of Computer Science and Engineering</p> -->
-
-                    <div class="social-links">
-                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-                        <a href="https://github.com/hridoynasah" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/hridoyhasan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a mailto="hridoynasah@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                        <a href="assets/data" target="_blank" rel="noopener noreferrer" aria-label="Download CV"><i class="fas fa-file-arrow-down"></i></a>
-                    </div>
-
-                    <div class="bio">
-                     <!--   <h2>About Me</h2> -->
-                        <p>
-                            I am a student in the  <a href="https://daffodilvarsity.edu.bd/department/cse" target="_blank" rel="noopener noreferrer">Department of Computer Science and Engineering</a> at
-                            <a href="https://daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Daffodil International University</a>.
-
-                            My academic and research interests lie at the intersection of Deep Learning, Computer Vision, and Health Informatics.
-
-                            I am currently engaged as an undergraduate research assistant in the
-                            <a href="https://hirl.daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Health Informatics Research Lab</a>
-                            at <a href="https://daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Daffodil International University (DIU)</a>.
-                        </p>
-
-                        <h2>Research Focus</h2>
-                        <p>I am particularly passionate about developing intelligent systems that can understand, learn from, and interpret real-world data — with a focus on advancing deep learning and computer vision architectures for medical diagnosis.</p>
-                        <p>My broader interests also include <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, and <strong>Computer Vision</strong>, <strong>Natural Language Processing</strong>, especially in their applications to real-world problems such as healthcare, automation, and education.</p>
-                    </div>
+    <main class="page">
+        <header class="hero">
+            <img src="assets/images/profile.jpeg" alt="Portrait of Hridoy Hasan" class="hero-image" loading="lazy">
+            <div class="hero-text">
+                <h1>Hridoy Hasan</h1>
+                <p class="hero-title">Undergraduate Research Assistant · Deep Learning &amp; Computer Vision</p>
+                <p class="hero-affiliation">Department of CSE, Daffodil International University</p>
+                <div class="hero-links">
+                    <a href="mailto:hridoynasah@gmail.com">hridoynasah@gmail.com</a>
+                    <span aria-hidden="true">·</span>
+                    <a href="https://github.com/hridoynasah" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <span aria-hidden="true">·</span>
+                    <a href="https://www.linkedin.com/in/hridoyhasan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
-            </section>
-        </main>
-    </div>
-</div>
+            </div>
+        </header>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2025 Hridoy Hasan. All rights reserved.</p>
-    </div>
-</footer>
+        <section class="section">
+            <h2>About</h2>
+            <p>
+                I study how modern machine learning and computer vision systems can support clinical decision-making.
+                My work focuses on data-efficient learning, interpretable models, and robust evaluation in healthcare
+                settings. I am currently an undergraduate research assistant at the Health Informatics Research Lab,
+                Daffodil International University.
+            </p>
+        </section>
 
+        <section class="section">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Deep learning for medical imaging</li>
+                <li>Data-efficient and interpretable computer vision</li>
+                <li>Clinical NLP and multimodal health data</li>
+                <li>Real-world evaluation and model reliability</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Selected Work</h2>
+            <p class="section-note">Full list available upon request.</p>
+            <ol>
+                <li>Developed a vision-based diagnostic pipeline for disease screening with limited labels.</li>
+                <li>Built evaluation protocols for robust model performance across clinical sites.</li>
+                <li>Explored multimodal fusion of radiology and text reports for improved accuracy.</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2>Contact</h2>
+            <p>
+                Email is the best way to reach me. I am open to research collaborations and graduate opportunities.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hridoy Hasan</p>
+    </footer>
 </body>
 </html>
