@@ -44,7 +44,7 @@ If you have ideas for new features or design improvements:
 4.  **Test your changes** locally (see [Development Workflow](#development-workflow)).
 5.  Commit your changes with a clear message:
     ```bash
-    git commit -m "Fix typo in projects.html"
+    git commit -m "Update hero section copy"
     ```
 6.  Push to your fork and submit a **Pull Request** to the `main` branch.
 7.  I will review your PR as soon as possible!
@@ -78,7 +78,7 @@ To keep the code clean and consistent, please adhere to the following simple rul
     * Use meaningful class names.
 * **Images**:
     * Ensure any new images are optimized to keep page load times low.
-    * Place images in the `assets/img` folder.
+    * Place images in the `assets/images` folder.
 
 ## License
 
