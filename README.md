@@ -19,8 +19,8 @@ You can view the live website here:
 
 ## 🌟 Key Features
 
-* **Portfolio Showcase:** A dedicated section (`projects.html`) to display technical projects with descriptions and repository links.
-* **Research & Publications:** A structured list (`publications.html`) of academic papers and contributions.
+* **Portfolio Showcase:** Featured projects and research highlights are showcased directly on the homepage.
+* **Icon-Driven Links:** Contact, publication, and project links use compact icon + text pills for quick scanning.
 * **Responsive Design:** Built with mobile-first CSS to ensure compatibility across desktops, tablets, and smartphones.
 * **Fast Loading:** Optimized static assets (HTML/CSS) with no heavy backend dependencies.
 
@@ -42,10 +42,8 @@ Here is a quick overview of the repository structure to help you navigate:
 hridoynasah.github.io/
 ├── 📁 assets/             # Static assets (Images, CSS files, Icons)
 │   ├── css/               # Stylesheets
-│   └── img/               # Profile pictures, project screenshots
-├── 📄 index.html          # Homepage / About section
-├── 📄 projects.html       # Portfolio of projects
-├── 📄 publications.html   # Academic research & publications
+│   └── images/            # Profile pictures and visuals
+├── 📄 index.html          # Homepage / About, research, and projects
 ├── 📄 CONTRIBUTING.md     # Guidelines for contributing to this repo
 ├── 📄 LICENSE             # The MIT License
 └── 📄 README.md           # This documentation file
