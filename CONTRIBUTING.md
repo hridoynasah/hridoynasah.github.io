@@ -1,85 +1,50 @@
-# Contributing to Hridoy Hasan's Personal Website
 
-First off, thank you for considering contributing to my personal website! It's people like you that make the open-source community such an amazing place to learn, inspire, and create.
+Thank you for taking the time to contribute. Before you do, please read the guidelines and the ways you can help.
 
-This repository (`hridoynasah.github.io`) hosts the source code for my personal portfolio. Since this is a static site built primarily with HTML and CSS, contributions are fairly straightforward.
+## Installing locally
 
-## Table of Contents
+Fork this repository and clone it locally:
 
-- [How to Contribute](#how-to-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Submitting Pull Requests](#submitting-pull-requests)
-- [Development Workflow](#development-workflow)
-- [Style Guide](#style-guide)
-- [License](#license)
+```bash
+# Replace 'YOUR-USERNAME' with your GitHub username
+git clone https://github.com/YOUR-USERNAME/hridoynasah.github.io.git
+cd hridoynasah.github.io
+```
 
-## How to Contribute
+Create a short-lived branch for your change:
 
-### Reporting Bugs
+```bash
+# Replace '<NAME>' with a branch name
+git switch -c <NAME>
+```
+or
+```bash
+# Replace '<NAME>' with a branch name
+git checkout -b <NAME>
+```
 
-If you find a broken link, a typo, or a layout issue on a specific device/browser, please let me know!
 
-1.  Check the **Issues** tab to see if the bug has already been reported.
-2.  If not, open a new Issue.
-3.  Clearly describe the issue (e.g., "The navigation bar overlaps text on mobile").
-4.  If possible, include screenshots or the browser version you are using.
+## Submitting changes
 
-### Suggesting Enhancements
+When you are ready to commit and push:
 
-If you have ideas for new features or design improvements:
+```bash
+git add <File_Name>
+git commit -m "Update [what changed]"
+git push
+```
 
-1.  Open an Issue with the tag `enhancement`.
-2.  Explain **why** this change would be beneficial.
-3.  Please understand that as this is a personal portfolio, I may not accept major design changes that deviate from my personal branding, but I am open to hearing your ideas!
+Open a pull request against `main` with a clear summary.
 
-### Submitting Pull Requests
 
-1.  **Fork** the repository and clone it locally.
-2.  Create a new branch for your edit:
-    ```bash
-    git checkout -b fix/your-fix-name
-    ```
-3.  Make your changes.
-4.  **Test your changes** locally (see [Development Workflow](#development-workflow)).
-5.  Commit your changes with a clear message:
-    ```bash
-    git commit -m "Update hero section copy"
-    ```
-6.  Push to your fork and submit a **Pull Request** to the `main` branch.
-7.  I will review your PR as soon as possible!
+## Reporting an issue
 
-## Development Workflow
+If you find a bug, typo, or layout issue, check for an existing issue first. If none exists, open a new issue and include steps to reproduce and screenshots when relevant.
 
-Since this is a static website, you don't need a complex build system.
+## Questions
 
-1.  **Clone the repo**:
-    ```bash
-    git clone [https://github.com/hridoynasah/hridoynasah.github.io.git](https://github.com/hridoynasah/hridoynasah.github.io.git)
-    ```
-2.  **Open the site**:
-    * You can simply double-click `index.html` to open it in your browser.
-    * Alternatively, for a better experience (to handle relative paths correctly), use a local server like VS Code's **Live Server** extension or Python:
-        ```bash
-        # Python 3
-        python -m http.server 8000
-        ```
-    * Navigate to `http://localhost:8000` in your browser.
-
-## Style Guide
-
-To keep the code clean and consistent, please adhere to the following simple rules:
-
-* **HTML**:
-    * Use semantic tags (`<header>`, `<nav>`, `<section>`, `<footer>`) where possible.
-    * Keep indentation consistent (2 or 4 spaces).
-* **CSS**:
-    * Avoid inline styles; use the `assets/css` files (or wherever your styles are located).
-    * Use meaningful class names.
-* **Images**:
-    * Ensure any new images are optimized to keep page load times low.
-    * Place images in the `assets/images` folder.
+If something does not fit the issue templates, open a blank issue with context.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the project's [MIT License](./LICENSE).
+By contributing, you agree your contributions are licensed under the [MIT License](LICENSE).
