@@ -7,13 +7,13 @@
 }
 
 :root {
-  --text-primary: #1f2937;
-  --text-secondary: #4b5563;
-  --accent: #2563eb;
-  --surface: #ffffff;
-  --surface-muted: #f8fafc;
-  --border: #e5e7eb;
-  --shadow: 0 20px 60px rgba(15, 23, 42, 0.15);
+  --text-primary: #f5f5f5;
+  --text-secondary: #b3b3b3;
+  --accent: #e6e6e6;
+  --surface: #0b0b0b;
+  --surface-muted: #111111;
+  --border: #1f1f1f;
+  --shadow: none;
   --radius-lg: 28px;
   --radius-md: 18px;
   --max-width: 1080px;
@@ -26,12 +26,7 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 16px;
-  background: radial-gradient(
-    circle at top left,
-    #fde8ee 0%,
-    #f8f1f5 45%,
-    #f9fbff 100%
-  );
+  background: #000;
   min-height: 100vh;
 }
 
@@ -78,15 +73,13 @@ a:hover {
   text-decoration: underline;
 }
 
-.hero-card {
+.hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2.5rem;
-  padding: 2.5rem 3rem;
-  background: var(--surface);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .hero-content {
@@ -135,7 +128,7 @@ a:hover {
   border: 1px solid var(--border);
   font-size: 0.95rem;
   font-weight: 600;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 .pill-icon {
@@ -147,8 +140,8 @@ a:hover {
 
 .pill:hover {
   text-decoration: none;
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+  border-color: #2a2a2a;
+  color: #ffffff;
 }
 
 .pill.small {
@@ -166,8 +159,7 @@ a:hover {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 6px solid #fff;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);
+  border: 2px solid var(--border);
 }
 
 .section-block {
@@ -202,7 +194,6 @@ a:hover {
   background: var(--surface);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
 .pub-thumb {
@@ -211,14 +202,15 @@ a:hover {
   width: 120px;
   height: 120px;
   border-radius: 18px;
-  background: linear-gradient(135deg, #dbeafe, #fef3c7);
+  background: #0d0d0d;
   color: var(--text-primary);
   font-weight: 700;
   letter-spacing: 0.05em;
+  border: 1px solid var(--border);
 }
 
 .pub-thumb.alt {
-  background: linear-gradient(135deg, #fee2e2, #e0f2fe);
+  background: #111111;
 }
 
 .pub-meta {
@@ -243,7 +235,6 @@ a:hover {
   border-radius: var(--radius-md);
   background: var(--surface);
   border: 1px solid var(--border);
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
 }
 
 .project-card p {
@@ -258,10 +249,10 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-  .hero-card {
+  .hero {
     flex-direction: column-reverse;
     text-align: center;
-    padding: 2.5rem 2rem;
+    padding: 2.5rem 0 2rem;
   }
 
   .hero-bio {
@@ -297,8 +288,8 @@ a:hover {
     padding-top: 2.5rem;
   }
 
-  .hero-card {
-    border-radius: 22px;
+  .hero {
+    border-radius: 0;
   }
 
   .project-grid {
