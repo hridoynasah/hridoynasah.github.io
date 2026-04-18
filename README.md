@@ -1,4 +1,4 @@
-# 👨‍💻 [Hridoy Hasan](https://hridoynasah.github.io)
+## [Hridoy Hasan](https://hridoynasah.github.io)
 
 The official source code for my personal website and portfolio.
 
