@@ -7,14 +7,14 @@
     <meta name="description"
         content="Hridoy Hasan | Researcher in Deep Learning, Computer Vision, and Health Informatics">
     <meta property="og:title" content="Hridoy Hasan">
-    <meta property="og:description" content="Academic profile, publications, and projects.">
+    <meta property="og:description" content="Academic profile, research experience, publications, and projects.">
     <meta property="og:type" content="website">
     <title>Hridoy Hasan</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -22,36 +22,44 @@
 </head>
 
 <body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#hero" class="nav-brand">Hridoy Hasan</a>
+            <nav aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#hero">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main class="page">
+        <!-- Hero / About Section -->
         <section class="hero" id="hero">
             <div class="hero-content">
                 <h1>Hridoy Hasan</h1>
-                <p class="section-justify">
-                    I am a student in the <a href="https://daffodilvarsity.edu.bd/department/cse" target="_blank"
+                <p class="hero-bio justify-text">
+                    I am an undergraduate student in the
+                    <a href="https://daffodilvarsity.edu.bd/department/cse" target="_blank"
                         rel="noopener noreferrer">Department of Computer Science and Engineering</a> at
                     <a href="https://daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Daffodil
-                        International University</a>.
-
+                        International University (DIU)</a>
+                    and a Research Assistant at the
+                    <a href="https://hirl.daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Health
+                        Informatics Research Lab (HIRL)</a>.
+                    <br><br>
                     My academic and research interests lie at the intersection of Deep Learning, Computer Vision, and
-                    Health Informatics. I am also interested in large language models, with a particular focus on
-                    pre-training, fine-tuning and model evaluation.
-
-                    <br>
+                    Health Informatics. I focus on medical image segmentation architectures, custom loss functions,
+                    dataset analysis, and Vision-Language Models (VLM) for Medical Visual Question Answering (Medical
+                    VQA).
                 </p>
-                <!-- <div class="hero-actions" aria-label="Profile links">
-                    <a class="pill" href="mailto:hridoynasah@gmail.com">
-                        <svg class="pill-icon" aria-hidden="true">
-                            <use href="assets/icons/sprite.svg#icon-email"></use>
-                        </svg>
-                        Email
-                    </a>
-                    <a class="pill" href="#">
-                        <svg class="pill-icon" aria-hidden="true">
-                            <use href="assets/icons/sprite.svg#icon-doc"></use>
-                        </svg>
-                        CV
-                    </a> -->
-                    <a class="pill" href="https://scholar.google.com/citations?hl=en&user=rzQWPekAAAAJ" target="_blank" rel="noopener noreferrer">
+                <div class="hero-actions" aria-label="Profile links">
+                    <a class="pill" href="https://scholar.google.com/citations?hl=en&user=rzQWPekAAAAJ" target="_blank"
+                        rel="noopener noreferrer">
                         <svg class="pill-icon" aria-hidden="true">
                             <use href="assets/icons/sprite.svg#icon-cap"></use>
                         </svg>
@@ -70,7 +78,7 @@
                         </svg>
                         GitHub
                     </a>
-                    <a class="pill" href="https://huggingface.co/hridoyhasan" target="_blank">
+                    <a class="pill" href="https://huggingface.co/hridoyhasan" target="_blank" rel="noopener noreferrer">
                         <span class="pill-emoji" aria-hidden="true">🤗</span>
                         Hugging Face
                     </a>
@@ -81,125 +89,132 @@
             </div>
         </section>
 
-        <!-- <section class="section-block" id="research">
-            <div class="section-header">
-                <h2>Research</h2>
-                <p class="section-justifyres">
-                    I am broadly interested in large language models, with a particular focus on
-                    pre-training, fine-tuning and model evaluation.
-                </p>
-            </div>
-        </section> -->
+        <!-- Education Section -->
+        <section class="section-block" id="education">
+            <div class="section-title-box">Education</div>
 
-        <section class="section-block" id="publications">
-            <div class="section-header">
-                <h2>Publications</h2>
-                <p>Recent papers and selected research highlights.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2023 - Present</div>
+                    <h3 class="timeline-heading">BSc, Computer Science & Engineering</h3>
+                    <div class="timeline-subheading">
+                        <a href="https://daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Daffodil
+                            International University</a>,
+                        <a href="https://daffodilvarsity.edu.bd/department/cse" target="_blank"
+                            rel="noopener noreferrer">Department of CSE</a>, Dhaka, Bangladesh
+                    </div>
+                    <p class="timeline-description">
+                        Academic background focused on Machine Learning, Deep Learning, Computer Vision, and
+                        Natural Language Processing. Active researcher at the Health Informatics Research Lab (HIRL).
+                    </p>
+                </div>
             </div>
-            <!-- Add research papers here -->
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section-block" id="experience">
+            <div class="section-title-box">Experience</div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2025 - Present</div>
+                    <h3 class="timeline-heading">Research Assistant</h3>
+                    <div class="timeline-subheading">
+                        <a href="https://hirl.daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Health
+                            Informatics Research Lab (HIRL)</a>,
+                        <a href="https://daffodilvarsity.edu.bd/" target="_blank" rel="noopener noreferrer">Daffodil
+                            International University (DIU)</a>
+                    </div>
+                    <p class="timeline-description">
+                        Conducted research on medical image segmentation, built custom loss functions to optimize
+                        spatial overlap and boundary precision, analyzed segmentation datasets, and currently working on
+                        Vision-Language Models (VLM) for Medical Visual Question Answering (Medical VQA).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="section-block" id="publications">
+            <div class="section-title-box">Publications</div>
 
             <div class="pub-list">
-
-
-
-                <!-- First paper starts here -->
-
-                <article class="pub-item">
-                    <div class="pub-thumb" aria-hidden="true">PCNN</div>
-                    <div class="pub-content">
-                        <h3>Under construction</h3>
-                        <p class="pub-meta"><strong>Hridoy Hasan</strong> - TMLR 2025</p>
-                        <div class="pub-links">
-                            <a class="pill small" href="#">
-                                <svg class="pill-icon" aria-hidden="true">
-                                    <use href="assets/icons/sprite.svg#icon-link"></use>
-                                </svg>
-                                Website
-                            </a>
-                            <a class="pill small" href="#">
-                                <svg class="pill-icon" aria-hidden="true">
-                                    <use href="assets/icons/sprite.svg#icon-code"></use>
-                                </svg>
-                                Code
-                            </a>
-                            <a class="pill small" href="https://arxiv.org/a/yourid.html">
+                <article class="pub-card">
+                    <!-- Left-side Methodology Diagram Space -->
+                    <div class="pub-diagram-container">
+                        <div class="pub-diagram-placeholder">
+                            <svg class="diagram-icon" aria-hidden="true">
+                                <use href="assets/icons/sprite.svg#icon-slides"></use>
+                            </svg>
+                            <span>Diagram Space</span>
+                        </div>
+                        <!-- Replace with image when ready: -->
+                        <!-- <img src="assets/images/publications/methodology_diagram.png" alt="Methodology Diagram" loading="lazy"> -->
+                    </div>
+                    <div class="pub-details">
+                        <h3>Medical Image Segmentation & VLM Research</h3>
+                        <p class="justify-text">
+                            <strong>Hridoy Hasan</strong> — Health Informatics Research Lab (Under Preparation)
+                        </p>
+                        <div class="hero-actions">
+                            <a class="pill small" href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">
                                 <svg class="pill-icon" aria-hidden="true">
                                     <use href="assets/icons/sprite.svg#icon-doc-lines"></use>
                                 </svg>
                                 arXiv
+                            </a>
+                            <a class="pill small" href="https://github.com/hridoynasah" target="_blank"
+                                rel="noopener noreferrer">
+                                <svg class="pill-icon" aria-hidden="true">
+                                    <use href="assets/icons/sprite.svg#icon-github"></use>
+                                </svg>
+                                Code
                             </a>
                         </div>
                     </div>
                 </article>
-
-                <!-- First paper ends  here -->
-
-                <!-- ------------------------------ -->
-                <!-- ------------------------------ -->
-                <!-- ------------------------------ -->
-
-                <!-- Second paper starts here -->
-
-
-                <!-- <article class="pub-item">
-                    <div class="pub-thumb" aria-hidden="true">PCNN</div>
-                    <div class="pub-content">
-                        <h3>Dummy Research Showcase</h3>
-                        <p class="pub-meta"><strong>Hridoy Hasan</strong> - TMLR 2025</p>
-                        <div class="pub-links">
-                            <a class="pill small" href="#">
-                                <svg class="pill-icon" aria-hidden="true">
-                                    <use href="assets/icons/sprite.svg#icon-link"></use>
-                                </svg>
-                                Website
-                            </a>
-                            <a class="pill small" href="#">
-                                <svg class="pill-icon" aria-hidden="true">
-                                    <use href="assets/icons/sprite.svg#icon-code"></use>
-                                </svg>
-                                Code
-                            </a>
-                            <a class="pill small" href="https://arxiv.org/a/yourid.html">
-                                <svg class="pill-icon" aria-hidden="true">
-                                    <use href="assets/icons/sprite.svg#icon-doc-lines"></use>
-                                </svg>
-                                arXiv
-                            </a>
-                        </div>
-                    </div>
-                </article> -->
-                <!-- Second paper ends here -->
-
-
-
-                <!-- Third paper ends here -->
-
-                <!-- Third paper ends here -->
-
-
             </div>
         </section>
 
-        <!-- Project section starts here -->
-
+        <!-- Projects Section -->
         <section class="section-block" id="projects">
-            <div class="section-header">
-                <h2>Projects</h2>
-            </div>
+            <div class="section-title-box">Projects</div>
+
             <div class="project-grid">
                 <article class="project-card">
-                    <h3>Under construction</h3>
-                    <p>coming soon...</p>
-                    <div class="pub-links">
-                        <a class="pill small" href="#">
+                    <div>
+                        <h3>Medical Visual Question Answering (VQA)</h3>
+                        <p class="justify-text">
+                            Vision-Language Models fine-tuned for understanding medical imaging and automated clinical
+                            visual question answering.
+                        </p>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="pill small" href="https://github.com/hridoynasah" target="_blank"
+                            rel="noopener noreferrer">
                             <svg class="pill-icon" aria-hidden="true">
-                                <use href="assets/icons/sprite.svg#icon-link"></use>
+                                <use href="assets/icons/sprite.svg#icon-github"></use>
                             </svg>
-                            Website
+                            Code
                         </a>
-                        <a class="pill small" href="#">
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div>
+                        <h3>Medical Image Segmentation Suite</h3>
+                        <p class="justify-text">
+                            Custom loss function implementations and evaluation framework for benchmark medical image
+                            segmentation tasks.
+                        </p>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="pill small" href="https://github.com/hridoynasah" target="_blank"
+                            rel="noopener noreferrer">
                             <svg class="pill-icon" aria-hidden="true">
-                                <use href="assets/icons/sprite.svg#icon-code"></use>
+                                <use href="assets/icons/sprite.svg#icon-github"></use>
                             </svg>
                             Code
                         </a>
@@ -207,14 +222,17 @@
                 </article>
             </div>
         </section>
-
     </main>
 
     <footer class="site-footer">
-        <p>&copy; 2026 Hridoy Hasan · Crafted with Codex ❤️ · <a href="#hero">Back to top</a></p>
+        <p class="footer-email">
+            The best way to get in touch with me is via <a href="mailto:hridoynasah@gmail.com" class="highlight-email">email</a> ✉️
+        </p>
+        <p>Built with 💜 by
+            <a href="https://github.com/hridoynasah" target="_blank" rel="noopener noreferrer">Hridoy Hasan</a> · <a
+                href="#hero">Back to top ↑</a>
+        </p>
     </footer>
 </body>
 
 </html>
-
-<!-- Ends -->
