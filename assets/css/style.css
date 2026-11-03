@@ -295,7 +295,7 @@ a:hover {
   text-align: justify;
 }
 
-/* Publications with Methodology Diagram Space on the Left Side */
+/* Publications */
 .pub-list {
   display: flex;
   flex-direction: column;
@@ -319,7 +319,7 @@ a:hover {
   border-radius: 8px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.02);
-  border: 1.5px dashed rgba(168, 85, 247, 0.3);
+  border: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -331,30 +331,12 @@ a:hover {
   border-color: rgba(168, 85, 247, 0.5);
 }
 
-.pub-diagram-container img {
+.pub-diagram-container iframe {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   display: block;
+  border: 0;
   border-radius: 8px;
-}
-
-.pub-diagram-placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.35rem;
-  color: var(--text-muted);
-  font-size: 0.75rem;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.diagram-icon {
-  width: 1.4rem;
-  height: 1.4rem;
-  color: var(--accent-purple-light);
-  opacity: 0.65;
 }
 
 .pub-details {
